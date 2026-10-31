@@ -1,0 +1,580 @@
+[
+  {
+    "doc_id": "D01",
+    "file": "pdf/user_manual_v2.pdf",
+    "format": "pdf",
+    "title": "NimbusDesk User Manual",
+    "doc_type": "manual",
+    "version": "2.1",
+    "date": "2024-03-15",
+    "access_level": "public",
+    "status": "superseded",
+    "supersedes": null,
+    "references": [],
+    "sections": [
+      {
+        "index": 1,
+        "heading": "1. Overview",
+        "page": 1
+      },
+      {
+        "index": 2,
+        "heading": "2. Signing In and Passwords",
+        "page": 2
+      },
+      {
+        "index": 3,
+        "heading": "3. Two-Factor Authentication",
+        "page": 3
+      },
+      {
+        "index": 4,
+        "heading": "4. Notifications",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "doc_id": "D02",
+    "file": "pdf/user_manual_v3.pdf",
+    "format": "pdf",
+    "title": "NimbusDesk User Manual",
+    "doc_type": "manual",
+    "version": "3.0",
+    "date": "2025-06-10",
+    "access_level": "public",
+    "status": "current",
+    "supersedes": "D01",
+    "references": [],
+    "sections": [
+      {
+        "index": 1,
+        "heading": "1. Overview",
+        "page": 1
+      },
+      {
+        "index": 2,
+        "heading": "2. Signing In and Passwords",
+        "page": 2
+      },
+      {
+        "index": 3,
+        "heading": "3. Roles and Two-Factor Authentication",
+        "page": 3
+      },
+      {
+        "index": 4,
+        "heading": "4. Single Sign-On",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "doc_id": "D03",
+    "file": "pdf/billing_policy.pdf",
+    "format": "pdf",
+    "title": "NimbusDesk Billing and Refund Policy",
+    "doc_type": "policy",
+    "version": "2025.1",
+    "date": "2025-04-01",
+    "access_level": "public",
+    "status": "current",
+    "supersedes": null,
+    "references": [],
+    "sections": [
+      {
+        "index": 1,
+        "heading": "1. Plans and Pricing",
+        "page": 1
+      },
+      {
+        "index": 2,
+        "heading": "2. Invoicing and Payment",
+        "page": 2
+      },
+      {
+        "index": 3,
+        "heading": "3. Refunds and Credits",
+        "page": 3
+      },
+      {
+        "index": 4,
+        "heading": "4. Discounts and Taxes",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "doc_id": "D04",
+    "file": "pdf/sla_policy.pdf",
+    "format": "pdf",
+    "title": "NimbusDesk Support SLA Policy",
+    "doc_type": "policy",
+    "version": "2025.2",
+    "date": "2025-07-01",
+    "access_level": "public",
+    "status": "current",
+    "supersedes": null,
+    "references": [],
+    "sections": [
+      {
+        "index": 1,
+        "heading": "1. Support Hours",
+        "page": 1
+      },
+      {
+        "index": 2,
+        "heading": "2. Response Targets",
+        "page": 2
+      },
+      {
+        "index": 3,
+        "heading": "3. Escalation",
+        "page": 3
+      },
+      {
+        "index": 4,
+        "heading": "4. Service Credits",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "doc_id": "D05",
+    "file": "html/faq.html",
+    "format": "html",
+    "title": "NimbusDesk Frequently Asked Questions",
+    "doc_type": "faq",
+    "version": "2.x",
+    "date": "2024-09-01",
+    "access_level": "public",
+    "status": "stale",
+    "supersedes": null,
+    "references": [],
+    "sections": [
+      {
+        "index": 1,
+        "heading": "How do I invite a teammate?",
+        "page": null
+      },
+      {
+        "index": 2,
+        "heading": "What is the maximum attachment size?",
+        "page": null
+      },
+      {
+        "index": 3,
+        "heading": "How fast will Enterprise support respond?",
+        "page": null
+      },
+      {
+        "index": 4,
+        "heading": "Which browsers are supported?",
+        "page": null
+      },
+      {
+        "index": 5,
+        "heading": "Can I rename my workspace?",
+        "page": null
+      }
+    ]
+  },
+  {
+    "doc_id": "D06",
+    "file": "html/troubleshooting.html",
+    "format": "html",
+    "title": "NimbusDesk Troubleshooting Guide",
+    "doc_type": "troubleshooting",
+    "version": "3.0",
+    "date": "2025-07-15",
+    "access_level": "public",
+    "status": "current",
+    "supersedes": null,
+    "references": [
+      "D07"
+    ],
+    "sections": [
+      {
+        "index": 1,
+        "heading": "I cannot sign in",
+        "page": null
+      },
+      {
+        "index": 2,
+        "heading": "Email notifications are not arriving",
+        "page": null
+      },
+      {
+        "index": 3,
+        "heading": "Webhook deliveries are failing",
+        "page": null
+      },
+      {
+        "index": 4,
+        "heading": "CSV export fails",
+        "page": null
+      },
+      {
+        "index": 5,
+        "heading": "Search results are missing new tickets",
+        "page": null
+      }
+    ]
+  },
+  {
+    "doc_id": "D07",
+    "file": "html/api_limits.html",
+    "format": "html",
+    "title": "NimbusDesk API and Usage Limits",
+    "doc_type": "reference",
+    "version": "3.1",
+    "date": "2025-09-15",
+    "access_level": "public",
+    "status": "current",
+    "supersedes": null,
+    "references": [],
+    "sections": [
+      {
+        "index": 1,
+        "heading": "API rate limits",
+        "page": null
+      },
+      {
+        "index": 2,
+        "heading": "Pagination and exports",
+        "page": null
+      },
+      {
+        "index": 3,
+        "heading": "Webhooks",
+        "page": null
+      },
+      {
+        "index": 4,
+        "heading": "Storage",
+        "page": null
+      }
+    ]
+  },
+  {
+    "doc_id": "D08",
+    "file": "html/sso_setup.html",
+    "format": "html",
+    "title": "Setting Up SAML Single Sign-On",
+    "doc_type": "support_article",
+    "version": "3.0",
+    "date": "2025-06-20",
+    "access_level": "public",
+    "status": "current",
+    "supersedes": null,
+    "references": [
+      "D02"
+    ],
+    "sections": [
+      {
+        "index": 1,
+        "heading": "Before you start",
+        "page": null
+      },
+      {
+        "index": 2,
+        "heading": "Setup steps",
+        "page": null
+      },
+      {
+        "index": 3,
+        "heading": "Attribute mapping",
+        "page": null
+      },
+      {
+        "index": 4,
+        "heading": "Common errors",
+        "page": null
+      }
+    ]
+  },
+  {
+    "doc_id": "D09",
+    "file": "markdown/release_notes_v2_1.md",
+    "format": "md",
+    "title": "NimbusDesk 2.1 Release Notes",
+    "doc_type": "release_notes",
+    "version": "2.1",
+    "date": "2024-04-02",
+    "access_level": "public",
+    "status": "superseded",
+    "supersedes": null,
+    "references": [],
+    "sections": [
+      {
+        "index": 1,
+        "heading": "New features",
+        "page": null
+      },
+      {
+        "index": 2,
+        "heading": "Limits",
+        "page": null
+      },
+      {
+        "index": 3,
+        "heading": "Fixes",
+        "page": null
+      },
+      {
+        "index": 4,
+        "heading": "Known issues",
+        "page": null
+      }
+    ]
+  },
+  {
+    "doc_id": "D10",
+    "file": "markdown/release_notes_v3_0.md",
+    "format": "md",
+    "title": "NimbusDesk 3.0 Release Notes",
+    "doc_type": "release_notes",
+    "version": "3.0",
+    "date": "2025-06-10",
+    "access_level": "public",
+    "status": "current",
+    "supersedes": "D09",
+    "references": [],
+    "sections": [
+      {
+        "index": 1,
+        "heading": "Highlights",
+        "page": null
+      },
+      {
+        "index": 2,
+        "heading": "Limits and quotas",
+        "page": null
+      },
+      {
+        "index": 3,
+        "heading": "Security",
+        "page": null
+      },
+      {
+        "index": 4,
+        "heading": "Billing",
+        "page": null
+      },
+      {
+        "index": 5,
+        "heading": "Deprecations",
+        "page": null
+      }
+    ]
+  },
+  {
+    "doc_id": "D11",
+    "file": "markdown/data_retention.md",
+    "format": "md",
+    "title": "NimbusDesk Data Retention Policy",
+    "doc_type": "policy",
+    "version": "2025.3",
+    "date": "2025-08-01",
+    "access_level": "internal",
+    "status": "current",
+    "supersedes": null,
+    "references": [],
+    "sections": [
+      {
+        "index": 1,
+        "heading": "Ticket data",
+        "page": null
+      },
+      {
+        "index": 2,
+        "heading": "Backups",
+        "page": null
+      },
+      {
+        "index": 3,
+        "heading": "Audit logs",
+        "page": null
+      },
+      {
+        "index": 4,
+        "heading": "Customer requests",
+        "page": null
+      }
+    ]
+  },
+  {
+    "doc_id": "D12",
+    "file": "markdown/admin_runbook.md",
+    "format": "md",
+    "title": "NimbusDesk Admin Runbook",
+    "doc_type": "runbook",
+    "version": "3.1",
+    "date": "2025-10-01",
+    "access_level": "admin",
+    "status": "current",
+    "supersedes": null,
+    "references": [
+      "D16"
+    ],
+    "sections": [
+      {
+        "index": 1,
+        "heading": "Emergency lockout recovery",
+        "page": null
+      },
+      {
+        "index": 2,
+        "heading": "Credentials and secrets",
+        "page": null
+      },
+      {
+        "index": 3,
+        "heading": "Database failover",
+        "page": null
+      },
+      {
+        "index": 4,
+        "heading": "Feature flags",
+        "page": null
+      }
+    ]
+  },
+  {
+    "doc_id": "D13",
+    "file": "txt/config_guide.txt",
+    "format": "txt",
+    "title": "NimbusDesk Configuration Guide",
+    "doc_type": "guide",
+    "version": "2.2",
+    "date": "2024-11-05",
+    "access_level": "public",
+    "status": "stale",
+    "supersedes": null,
+    "references": [],
+    "sections": [
+      {
+        "index": 1,
+        "heading": "CUSTOM FIELDS",
+        "page": null
+      },
+      {
+        "index": 2,
+        "heading": "BUSINESS HOURS",
+        "page": null
+      },
+      {
+        "index": 3,
+        "heading": "EMAIL TO TICKET",
+        "page": null
+      },
+      {
+        "index": 4,
+        "heading": "TRASH AND DELETION",
+        "page": null
+      },
+      {
+        "index": 5,
+        "heading": "LANGUAGE",
+        "page": null
+      }
+    ]
+  },
+  {
+    "doc_id": "D14",
+    "file": "txt/migration_notes.txt",
+    "format": "txt",
+    "title": "Migrating from HelpPilot to NimbusDesk",
+    "doc_type": "notes",
+    "version": "3.0",
+    "date": "2025-07-01",
+    "access_level": "internal",
+    "status": "current",
+    "supersedes": null,
+    "references": [
+      "D11"
+    ],
+    "sections": [
+      {
+        "index": 1,
+        "heading": "SCOPE",
+        "page": null
+      },
+      {
+        "index": 2,
+        "heading": "FIELD MAPPING",
+        "page": null
+      },
+      {
+        "index": 3,
+        "heading": "CUTOVER",
+        "page": null
+      },
+      {
+        "index": 4,
+        "heading": "ROLLBACK",
+        "page": null
+      }
+    ]
+  },
+  {
+    "doc_id": "D15",
+    "file": "txt/community_tips.txt",
+    "format": "txt",
+    "title": "NimbusDesk Community Tips (Unofficial)",
+    "doc_type": "community",
+    "version": "n/a",
+    "date": "2025-08-20",
+    "access_level": "public",
+    "status": "unofficial",
+    "supersedes": null,
+    "references": [],
+    "sections": [
+      {
+        "index": 1,
+        "heading": "TIP 1 - SAVED REPLIES",
+        "page": null
+      },
+      {
+        "index": 2,
+        "heading": "TIP 2 - TAGGING",
+        "page": null
+      },
+      {
+        "index": 3,
+        "heading": "TIP 3 - KEYBOARD SHORTCUTS",
+        "page": null
+      },
+      {
+        "index": 4,
+        "heading": "TIP 4 - NOTE FROM A READER",
+        "page": null
+      }
+    ]
+  },
+  {
+    "doc_id": "D16",
+    "file": "txt/internal_contacts.txt",
+    "format": "txt",
+    "title": "Internal Escalation Contacts",
+    "doc_type": "contacts",
+    "version": "2025.4",
+    "date": "2025-09-30",
+    "access_level": "admin",
+    "status": "current",
+    "supersedes": null,
+    "references": [],
+    "sections": [
+      {
+        "index": 1,
+        "heading": "ESCALATION CONTACTS",
+        "page": null
+      },
+      {
+        "index": 2,
+        "heading": "PAGER ROTATION",
+        "page": null
+      }
+    ]
+  }
+]

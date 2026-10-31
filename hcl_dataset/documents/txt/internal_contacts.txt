@@ -1,0 +1,17 @@
+INTERNAL ESCALATION CONTACTS
+============================
+Version: 2025.4
+Date: 2025-09-30
+Publisher: Brightwave Systems
+
+ESCALATION CONTACTS
+-------------------
+Support manager: Priya Nair, priya.nair@brightwave.example, +1-555-0142.
+On-call engineering lead: Marcus Lee, marcus.lee@brightwave.example,
++1-555-0199. Billing disputes: Elena Petrova,
+elena.petrova@brightwave.example, +1-555-0117.
+
+PAGER ROTATION
+--------------
+The pager rotation changes every Monday at 10:00 UTC. Handover notes are
+posted in the internal channel before the change.

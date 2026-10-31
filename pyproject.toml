@@ -1,0 +1,18 @@
+# Tool configuration only (the project is run from source, not installed as a package).
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+extend-exclude = ["hcl_dataset"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "B", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["llm: calls the real LLM provider (skipped when no API key is set)"]
+filterwarnings = ["ignore::DeprecationWarning", "ignore::FutureWarning"]
+
+[tool.ruff.lint.flake8-bugbear]
+# FastAPI declares parameters with these calls in defaults by design.
+extend-immutable-calls = ["fastapi.Depends", "fastapi.File", "fastapi.Form", "fastapi.Header"]

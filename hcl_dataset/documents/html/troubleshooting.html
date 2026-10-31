@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>NimbusDesk Troubleshooting Guide</title>
+<meta name="doc-version" content="3.0">
+<meta name="doc-date" content="2025-07-15">
+<meta name="author" content="Brightwave Systems">
+<style>body{font-family:Arial,sans-serif;max-width:760px;margin:2rem auto;line-height:1.55}nav,footer{color:#666;font-size:.85rem}</style>
+</head>
+<body>
+<nav><a href="#">Home</a> / Help Center</nav>
+<article><h1>NimbusDesk Troubleshooting Guide</h1>
+<p class="meta">Version 3.0 - Updated 2025-07-15</p>
+<section id="s1"><h2>I cannot sign in</h2><p>If sign-in fails with the message Account locked, wait 30 minutes or ask an administrator to unlock the account from Settings &gt; Members. If the message is Invalid credentials, use Forgot password to reset your password.</p></section>
+<section id="s2"><h2>Email notifications are not arriving</h2><p>First check that notifications@nimbusdesk.example is not blocked by your mail filter. Then confirm the notification type is enabled under Profile &gt; Notifications. Bounced addresses are removed from notifications automatically after 3 consecutive bounces.</p></section>
+<section id="s3"><h2>Webhook deliveries are failing</h2><p>NimbusDesk retries a failed webhook delivery 5 times over 30 minutes. If all retries fail, the endpoint is disabled and an email is sent to the workspace owner. Error code WH-408 means your endpoint did not respond within 10 seconds.</p></section>
+<section id="s4"><h2>CSV export fails</h2><p>Error code EXP-413 means the export contains more than the allowed number of tickets. Narrow the date range and export again. See the API and Usage Limits article for the current maximum.</p></section>
+<section id="s5"><h2>Search results are missing new tickets</h2><p>Newly created tickets can take up to 2 minutes to appear in search. If a ticket is still missing after 10 minutes, contact support with the ticket number.</p></section>
+</article>
+<footer>&copy; Brightwave Systems. All rights reserved.</footer>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Setting Up SAML Single Sign-On</title>
+<meta name="doc-version" content="3.0">
+<meta name="doc-date" content="2025-06-20">
+<meta name="author" content="Brightwave Systems">
+<style>body{font-family:Arial,sans-serif;max-width:760px;margin:2rem auto;line-height:1.55}nav,footer{color:#666;font-size:.85rem}</style>
+</head>
+<body>
+<nav><a href="#">Home</a> / Help Center</nav>
+<article><h1>Setting Up SAML Single Sign-On</h1>
+<p class="meta">Version 3.0 - Updated 2025-06-20</p>
+<section id="s1"><h2>Before you start</h2><p>SAML 2.0 single sign-on requires the Pro or Enterprise plan and an Owner account. You need the metadata URL from your identity provider. Roles are described in the NimbusDesk User Manual 3.0.</p></section>
+<section id="s2"><h2>Setup steps</h2><p>Go to Settings &gt; Security &gt; Single sign-on, paste the identity provider metadata URL and select Test connection. After a successful test, select Enable. Keep one Owner account with password sign-in as a fallback until SSO is verified.</p></section>
+<section id="s3"><h2>Attribute mapping</h2><p>NimbusDesk requires the attributes email, first_name and last_name in the SAML response. Users are matched by email address. The attribute role is optional and maps to Agent, Admin or Owner.</p></section>
+<section id="s4"><h2>Common errors</h2><p>Error SSO-102 Invalid assertion usually means the clock on the identity provider differs from NimbusDesk by more than 5 minutes. Error SSO-210 means the email address in the assertion does not match any member.</p></section>
+</article>
+<footer>&copy; Brightwave Systems. All rights reserved.</footer>
+</body>
+</html>

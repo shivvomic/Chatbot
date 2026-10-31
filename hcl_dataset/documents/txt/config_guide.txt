@@ -1,0 +1,32 @@
+NIMBUSDESK CONFIGURATION GUIDE
+==============================
+Version: 2.2
+Date: 2024-11-05
+Publisher: Brightwave Systems
+
+CUSTOM FIELDS
+-------------
+Each workspace can have up to 20 custom ticket fields. Supported field types
+are text, number, date and dropdown.
+
+BUSINESS HOURS
+--------------
+Business hours are configured per team under Settings > Teams. The default is
+Monday to Friday, 09:00 to 17:00 in the workspace time zone. SLA timers pause
+outside business hours.
+
+EMAIL TO TICKET
+---------------
+Each workspace receives a support address in the form
+workspace-name@inbound.nimbusdesk.example. Emails sent to this address create
+tickets automatically.
+
+TRASH AND DELETION
+------------------
+Deleted tickets move to Trash. Deleted tickets are permanently removed after
+30 days.
+
+LANGUAGE
+--------
+The default interface language is English. Available languages are English,
+Spanish, German and French.

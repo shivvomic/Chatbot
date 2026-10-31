@@ -1,0 +1,154 @@
+[
+  {
+    "id": "C1",
+    "topic": "account_access",
+    "subject": "Password reset link validity",
+    "type": "version",
+    "claims": [
+      {
+        "doc_id": "D01",
+        "value": "24 hours",
+        "date": "2024-03-15"
+      },
+      {
+        "doc_id": "D02",
+        "value": "1 hour",
+        "date": "2025-06-10"
+      },
+      {
+        "doc_id": "D10",
+        "value": "1 hour",
+        "date": "2025-06-10"
+      }
+    ],
+    "expected": "Newer v3.0 (2025-06-10) says 1 hour; v2.1 says 24 hours.",
+    "question_ids": [
+      "Q19"
+    ]
+  },
+  {
+    "id": "C2",
+    "topic": "usage_limits",
+    "subject": "Maximum attachment size",
+    "type": "stale_source",
+    "claims": [
+      {
+        "doc_id": "D05",
+        "value": "25 MB",
+        "date": "2024-09-01"
+      },
+      {
+        "doc_id": "D09",
+        "value": "25 MB",
+        "date": "2024-04-02"
+      },
+      {
+        "doc_id": "D10",
+        "value": "50 MB",
+        "date": "2025-06-10"
+      },
+      {
+        "doc_id": "D07",
+        "value": "50 MB",
+        "date": "2025-09-15"
+      }
+    ],
+    "expected": "Older FAQ and v2.1 notes say 25 MB; v3.0 notes and API limits page say 50 MB.",
+    "question_ids": [
+      "Q20"
+    ]
+  },
+  {
+    "id": "C3",
+    "topic": "usage_limits",
+    "subject": "Pro API rate limit",
+    "type": "version",
+    "claims": [
+      {
+        "doc_id": "D09",
+        "value": "100 rpm",
+        "date": "2024-04-02"
+      },
+      {
+        "doc_id": "D10",
+        "value": "300 rpm",
+        "date": "2025-06-10"
+      },
+      {
+        "doc_id": "D07",
+        "value": "300 rpm",
+        "date": "2025-09-15"
+      }
+    ],
+    "expected": "v2.1 notes say 100 rpm; v3.0 notes and API limits page say 300 rpm.",
+    "question_ids": [
+      "Q21"
+    ]
+  },
+  {
+    "id": "C4",
+    "topic": "configuration",
+    "subject": "Deleted ticket purge period",
+    "type": "genuine",
+    "claims": [
+      {
+        "doc_id": "D13",
+        "value": "30 days",
+        "date": "2024-11-05"
+      },
+      {
+        "doc_id": "D11",
+        "value": "90 days",
+        "date": "2025-08-01"
+      }
+    ],
+    "expected": "Config guide (2024-11) says 30 days; retention policy (2025-08, internal) says 90 days. No document states which supersedes.",
+    "question_ids": [
+      "Q22"
+    ]
+  },
+  {
+    "id": "C5",
+    "topic": "support",
+    "subject": "Enterprise Priority 1 first response",
+    "type": "stale_source",
+    "claims": [
+      {
+        "doc_id": "D04",
+        "value": "1 hour",
+        "date": "2025-07-01"
+      },
+      {
+        "doc_id": "D05",
+        "value": "2 hours",
+        "date": "2024-09-01"
+      }
+    ],
+    "expected": "SLA policy (2025-07) says 1 hour; older FAQ (2024-09) says 2 hours.",
+    "question_ids": [
+      "Q23"
+    ]
+  },
+  {
+    "id": "C6",
+    "topic": "billing",
+    "subject": "Annual billing discount",
+    "type": "date_sensitive",
+    "claims": [
+      {
+        "doc_id": "D03",
+        "value": "15 percent",
+        "date": "2025-04-01"
+      },
+      {
+        "doc_id": "D10",
+        "value": "20 percent",
+        "date": "2025-06-10"
+      }
+    ],
+    "expected": "Billing policy (2025-04) says 15 percent; v3.0 notes say 20 percent for subscriptions starting on or after 1 July 2025.",
+    "question_ids": [
+      "Q24"
+    ]
+  }
+]

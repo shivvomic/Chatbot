@@ -1,0 +1,27 @@
+MIGRATING FROM HELPPILOT TO NIMBUSDESK
+======================================
+Version: 3.0
+Date: 2025-07-01
+Publisher: Brightwave Systems
+
+SCOPE
+-----
+These notes are for the migration team. The import tool accepts CSV files of
+up to 50,000 rows per file. Retention settings follow the Data Retention
+Policy.
+
+FIELD MAPPING
+-------------
+The HelpPilot field requester maps to the NimbusDesk contact. The HelpPilot
+status Solved maps to the NimbusDesk status Closed.
+
+CUTOVER
+-------
+Plan the cutover for a weekend. Email forwarding must be switched to the
+NimbusDesk inbound address before the final sync. The final sync takes about 4
+hours per 100,000 tickets.
+
+ROLLBACK
+--------
+A migration can be rolled back within 7 days of cutover. After 7 days, a
+rollback requires approval from the engineering director.

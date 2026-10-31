@@ -1,0 +1,16 @@
+# Runtime dependencies (pinned; tested on Python 3.11).
+fastapi==0.162.0
+uvicorn[standard]==0.54.0
+python-multipart==0.0.32  # multipart form parsing for /upload
+pydantic==2.14.2
+pydantic-settings==2.16.2
+httpx==0.28.1  # LLM provider calls and the UI's API client
+chromadb==1.5.9
+rank-bm25==0.2.2
+sentence-transformers==6.2.0
+transformers==5.22.1
+torch==2.15.0
+numpy==2.4.6
+pymupdf==2.0
+beautifulsoup4==4.15.0
+streamlit==1.66.1

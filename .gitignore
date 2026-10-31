@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environment
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Generated indexes, uploads and logs
+data/
+*.log
+
+# Model caches (Hugging Face / sentence-transformers)
+.cache/
+models/
+
+# Evaluation outputs (REPORT.md is kept)
+eval/results.json
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/

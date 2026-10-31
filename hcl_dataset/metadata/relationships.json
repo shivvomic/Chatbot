@@ -1,0 +1,98 @@
+[
+  {
+    "from": "D02",
+    "to": "D01",
+    "type": "supersedes"
+  },
+  {
+    "from": "D06",
+    "to": "D07",
+    "type": "references"
+  },
+  {
+    "from": "D08",
+    "to": "D02",
+    "type": "references"
+  },
+  {
+    "from": "D10",
+    "to": "D09",
+    "type": "supersedes"
+  },
+  {
+    "from": "D12",
+    "to": "D16",
+    "type": "references"
+  },
+  {
+    "from": "D14",
+    "to": "D11",
+    "type": "references"
+  },
+  {
+    "from": "D01",
+    "to": "D02",
+    "type": "conflicts_with",
+    "conflict_id": "C1"
+  },
+  {
+    "from": "D01",
+    "to": "D10",
+    "type": "conflicts_with",
+    "conflict_id": "C1"
+  },
+  {
+    "from": "D05",
+    "to": "D10",
+    "type": "conflicts_with",
+    "conflict_id": "C2"
+  },
+  {
+    "from": "D05",
+    "to": "D07",
+    "type": "conflicts_with",
+    "conflict_id": "C2"
+  },
+  {
+    "from": "D09",
+    "to": "D10",
+    "type": "conflicts_with",
+    "conflict_id": "C2"
+  },
+  {
+    "from": "D09",
+    "to": "D07",
+    "type": "conflicts_with",
+    "conflict_id": "C2"
+  },
+  {
+    "from": "D09",
+    "to": "D10",
+    "type": "conflicts_with",
+    "conflict_id": "C3"
+  },
+  {
+    "from": "D09",
+    "to": "D07",
+    "type": "conflicts_with",
+    "conflict_id": "C3"
+  },
+  {
+    "from": "D13",
+    "to": "D11",
+    "type": "conflicts_with",
+    "conflict_id": "C4"
+  },
+  {
+    "from": "D04",
+    "to": "D05",
+    "type": "conflicts_with",
+    "conflict_id": "C5"
+  },
+  {
+    "from": "D03",
+    "to": "D10",
+    "type": "conflicts_with",
+    "conflict_id": "C6"
+  }
+]

@@ -1,0 +1,49 @@
+question_id,doc_id,section,page,relevance
+Q01,D02,2. Signing In and Passwords,2,2
+Q02,D03,2. Invoicing and Payment,2,2
+Q02,D03,2. Invoicing and Payment,2,2
+Q03,D10,Deprecations,,2
+Q04,D13,CUSTOM FIELDS,,2
+Q05,D08,Common errors,,2
+Q06,D04,4. Service Credits,4,2
+Q07,D06,I cannot sign in,,2
+Q08,D03,2. Invoicing and Payment,2,2
+Q08,D03,2. Invoicing and Payment,2,2
+Q09,D07,Pagination and exports,,2
+Q10,D13,BUSINESS HOURS,,2
+Q11,D06,Webhook deliveries are failing,,2
+Q12,D04,2. Response Targets,2,2
+Q13,D02,2. Signing In and Passwords,2,2
+Q13,D01,2. Signing In and Passwords,2,2
+Q14,D03,1. Plans and Pricing,1,2
+Q14,D03,1. Plans and Pricing,1,2
+Q14,D03,2. Invoicing and Payment,2,2
+Q15,D07,Webhooks,,2
+Q15,D07,Webhooks,,2
+Q15,D03,1. Plans and Pricing,1,2
+Q16,D10,Highlights,,2
+Q16,D08,Before you start,,2
+Q17,D06,CSV export fails,,2
+Q17,D10,Limits and quotas,,2
+Q17,D07,Pagination and exports,,1
+Q18,D04,2. Response Targets,2,2
+Q18,D04,3. Escalation,3,2
+Q19,D01,2. Signing In and Passwords,2,2
+Q19,D02,2. Signing In and Passwords,2,2
+Q19,D10,Security,,2
+Q20,D05,What is the maximum attachment size?,,2
+Q20,D09,Limits,,2
+Q20,D10,Limits and quotas,,2
+Q20,D07,Storage,,2
+Q21,D09,Limits,,2
+Q21,D10,Limits and quotas,,2
+Q21,D07,API rate limits,,2
+Q22,D13,TRASH AND DELETION,,2
+Q22,D11,Ticket data,,2
+Q23,D04,2. Response Targets,2,2
+Q23,D05,How fast will Enterprise support respond?,,2
+Q24,D03,4. Discounts and Taxes,4,2
+Q24,D10,Billing,,2
+Q44,D15,TIP 1 - SAVED REPLIES,,2
+Q44,D15,TIP 2 - TAGGING,,2
+Q44,D15,TIP 3 - KEYBOARD SHORTCUTS,,2
